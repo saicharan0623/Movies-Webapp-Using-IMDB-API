@@ -1,12 +1,103 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎬 Movies Web App Using TMDB API
 
-Currently, two official plugins are available:
+This is a responsive web application built using **React.js** and **Tailwind CSS**, powered by the [TMDb API](https://api.themoviedb.org/) to fetch real-time movie data. Users can search for any movie and instantly view its details including the poster, plot, rating, genre, and more.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Screenshots
 
-## Expanding the ESLint configuration
+| Search Page         | Movie Details        |
+|---------------------|----------------------|
+| ![](reference-md.png) | ![](reference-md2.png) |
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🔍 Search movies by title in real time
+- 🖼️ View high-quality movie posters
+- 🎥 Get full details: title, genre, rating, actors, plot, and more
+- 💡 Smooth user experience with a dark-themed interface
+- 📱 Fully responsive design using Tailwind CSS
+
+---
+
+## 🛠️ Built With
+
+- **React.js** – frontend JavaScript framework
+- **Tailwind CSS** – utility-first CSS framework
+- **TMDb API** – movie data source
+
+---
+
+## 📦 Project Structure
+
+```
+📂 Movies-Webapp-TMDB
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.jsx
+│   ├── index.js
+├── tailwind.config.js
+├── package.json
+├── README.md        # This file
+```
+
+---
+
+## 🚀 Getting Started
+
+Follow these steps to get a local copy running:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/movies-webapp-tmdb.git
+cd movies-webapp-tmdb
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Get a TMDb API Key
+
+- Go to [https://www.themoviedb.org/settings/api](https://www.themoviedb.org/settings/api)
+- Sign up for a free API key
+
+### 4. Add API Key
+
+Create a `.env` file in the root directory and add:
+
+```
+VITE_TMDB_API_KEY=your_api_key_here
+```
+
+### 5. Start the App
+
+```bash
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+---
+
+## 💡 Future Enhancements
+
+- Add search suggestions or auto-complete
+- Add favorite movie saving using `localStorage`
+- Support series and episode listings
+- Add trailer links from YouTube
+- Add light/dark theme toggle
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repository and submit pull requests. Feedback and ideas are welcome!
+
+---
+
+Enjoy discovering movies! 🍿
