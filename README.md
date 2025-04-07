@@ -52,7 +52,7 @@ Follow these steps to get a local copy running:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movies-webapp-tmdb.git
+git clone https://github.com/saicharan0623/movies-webapp-tmdb.git
 cd movies-webapp-tmdb
 ```
 
